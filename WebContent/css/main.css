@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+/*整体页面的css*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.site-name {
+	font-family: 'Raleway', sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+	font-size: 15px;
+	line-height: 1.50;
+	color: #333333;
+	background-color: #ffffff;
+	position: relative;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: #333333;
+}
+h1 {
+	font-size: 38px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 18px;
+	font-weight: 700;
+}
+h5 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h6 {
+	font-weight: 700;
+}
+
+/*具体样式*/
+.div_title{
+	border:red 1px solid;
+	width: 100%;
+	text-align: center;	
+	height:100px;
+	background-color: #719858;
+}
+.title{
+	font-size: 40px;
+	font-family:'Open Sans', sans-serif;
+	font-weight: bold; 
+}
+ul{
+	list-style-type: none;
+	 
+}
+a{
+	text-decoration: none;
+	color:#333333;
+	font-size: 20px;
+	display: block;
+	margin: 15px;
+}
+a:HOVER{
+	color: #ffff00;
+}
+.div_dh{
+	height: 100%;
+	width: 20%;
+	border:red 1px solid;
+ 	background: linear-gradient(#8BB274, #B4D3A2); 
+ 	margin: 10px 10px 0 0;
+ 	float: left;
+}
+
+
+.div_body{
+	float: left;
+	width: 77%;
+	height: 100%;
+	border:red 1px solid;
+	margin: 10px 0 0 0;
+}
+.div_body span{
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	margin: 40px 0 0 50px;
+}
+.div_body table{
+	margin: 40px 0 0 0px;
+	border: 1px solid red;
+	width: 100%;
+}
+
+.div_body table tr{
+}
+
+.a_1{
+	color:#C92434;
+}
